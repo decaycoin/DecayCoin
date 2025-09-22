@@ -1,0 +1,12 @@
+{
+  "name": "DecayCoin",
+  "symbol": "DKCN",
+  "address": "0x1a662ac5693ddc76e68722e38c74e57d935c8ec1",
+  "decimals": 18,
+  "totalSupply": 1100000000,
+  "website": "https://decaycoin.github.io/DecayCoin/",
+  "email": "decaycoin@gmail.com",
+  "logo": "https://decaycoin.github.io/DecayCoin/assets/dkcn-32.svg",
+  "description": "DecayCoin (DKCN) is a deflationary cryptocurrency built on Polygon, designed for sustainable growth through gradual supply reduction. Fixed supply: 1.1B DKCN.",
+  "sector": "DeFi"
+}

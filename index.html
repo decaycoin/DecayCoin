@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DecayCoin (DKCN)</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <meta name="description" content="DecayCoin (DKCN) is a deflationary cryptocurrency built on Polygon for long-term sustainability via gradual supply reduction.">
+  <style>
+    :root {
+      --bg: #0f0f11;
+      --card: #16161a;
+      --text: #eaeaea;
+      --muted: #bdbdbd;
+      --accent: #ffffff;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--sans); }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px 56px; }
+    .card {
+      background: var(--card);
+      border: 1px solid #222;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    .row { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+    .logo { width: 96px; height: 96px; border-radius: 16px; overflow: hidden; border: 1px solid #2a2a2a; background: #fff; }
+    h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: 0.3px; }
+    .muted { color: var(--muted); }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 20px;
+    }
+    @media (min-width: 720px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+    .item {
+      background: #111115;
+      border: 1px solid #242424;
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+    .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; }
+    .value { margin-top: 6px; font-family: var(--mono); word-break: break-all; }
+    .footer { margin-top: 18px; font-size: 14px; color: var(--muted); }
+    a { color: var(--text); }
+    .button {
+      appearance: none; border: 1px solid #2a2a2a; background: #101014; color: var(--text);
+      padding: 8px 12px; border-radius: 10px; font-size: 14px; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="row">
+        <div class="logo"><img src="./assets/dkcn-180.png" width="96" height="96" alt="DecayCoin logo"></div>
+        <div>
+          <h1>DecayCoin <span class="muted">(DKCN)</span></h1>
+          <div class="muted">Deflationary token on Polygon — gradual supply reduction for long‑term sustainability.</div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="item">
+          <div class="label">Contract</div>
+          <div class="value" id="addr">0x1a662ac5693ddc76e68722e38c74e57d935c8ec1</div>
+        </div>
+        <div class="item">
+          <div class="label">Network</div>
+          <div class="value">Polygon PoS</div>
+        </div>
+        <div class="item">
+          <div class="label">Symbol</div>
+          <div class="value">DKCN</div>
+        </div>
+        <div class="item">
+          <div class="label">Decimals</div>
+          <div class="value">18</div>
+        </div>
+        <div class="item">
+          <div class="label">Total Supply</div>
+          <div class="value">1,100,000,000</div>
+        </div>
+        <div class="item">
+          <div class="label">Email</div>
+          <div class="value"><a href="mailto:decaycoin@gmail.com">decaycoin@gmail.com</a></div>
+        </div>
+        <div class="item">
+          <div class="label">Website</div>
+          <div class="value"><a href="https://decaycoin.github.io/DecayCoin/">https://decaycoin.github.io/DecayCoin/</a></div>
+        </div>
+        <div class="item">
+          <div class="label">Logo (32×32 SVG)</div>
+          <div class="value"><a href="./assets/dkcn-32.svg">/assets/dkcn-32.svg</a></div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>© 2025 DecayCoin. This site is static and contains only public info needed for token listings and verifications.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
